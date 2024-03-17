@@ -1,0 +1,19 @@
+/* Write your CSS code here */
+
+.notFound-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.notFound-image {
+  width: 40%;
+}
+
+.notFound-text {
+  color: #551e53;
+  font-size: 35px;
+  font-family: Roboto;
+  font-weight: 600;
+}

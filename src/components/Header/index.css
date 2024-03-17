@@ -1,0 +1,53 @@
+/* Write your CSS code here */
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wave-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.wave-img {
+  width: 30px;
+  padding-right: 7px;
+}
+
+.wave-img-text {
+  color: #551e53;
+  font-size: 19px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.nav-list-container {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav-list-items {
+  padding-left: 14px;
+  color: #551e53;
+  font-size: 19px;
+  font-family: Roboto;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-list-items {
+    font-size: 16px;
+    padding-left: 7px;
+  }
+  .wave-img {
+    width: 30%;
+  }
+  .wave-img-text {
+    font-size: 16px;
+  }
+}
